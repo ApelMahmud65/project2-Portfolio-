@@ -1,0 +1,97 @@
+/*My Portfolio site style*/
+
+/*
+			-- FONT --
+-----------------------------------
+    font-family: 'Baloo', cursive;
+
+    font-family: 'El Messiri', sans-serif;
+
+
+*/
+
+body{
+	 font-family: 'El Messiri', sans-serif;
+}
+
+.navbar-brand{
+	font-size: 25px;
+	font-weight: bold;
+	border: 2px dotted #fff;
+	padding: 3px 10px;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+	padding-left: 1.5rem !important;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.underline{
+	transition: all .3s ease;
+}
+
+.underline:hover{
+	text-decoration: underline;
+}
+
+.about-section img{
+	position: relative;
+	height: 300px;
+	width: 300px;
+}
+
+.img-box{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.img-box img{
+	display: block;
+}
+
+.img-box .text{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: #34495e;
+	right: 0;
+	left: 0;
+	top: 100%;
+	bottom: 0;
+	transition: all .4s ease;
+}
+
+.img-box:hover .text{
+	top: 0;
+}
+
+.img-box .text h2{
+	padding-top: 15%;
+}
+
+.greetings-section{
+	font-family: 'Baloo', cursive;
+	width: 100vw;
+	height: 650px;
+	 background-image: linear-gradient(to right top, #dcddb6, #cee4c9, #cae8dc, #d1eae9, #deebef);
+}
+
+.greetings-section h1{
+	padding-top: 5px;
+	padding-top: 10%;
+}
+
+.progress-section span{
+	font-size: 25px;
+}
+
+.progress-section .prog{
+	padding: 7px;
+}
+
+#bigText{
+	font-size: 1.5rem;
+}
